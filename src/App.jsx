@@ -35,6 +35,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>Calculator</h1>
         <div className="calculator-wrapper">
           <Input input={this.state.input}></Input>
           <div className="row">
@@ -69,6 +70,7 @@ class App extends Component {
             <Button handleClick={this.updateInput}>)</Button>
           </div>
         </div>
+        <h2>Made With Love and Tea By Rajesh Jangid</h2>
       </div>
     );
   }
