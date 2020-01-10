@@ -1,0 +1,14 @@
+.clr-btn {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: #efefef;
+  color: #007bff;
+  flex: 1;
+  border: 1px solid#007bff;
+  margin: 6px;
+  border-radius: 6px;
+}
