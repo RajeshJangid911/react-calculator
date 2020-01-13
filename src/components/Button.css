@@ -9,9 +9,15 @@
   color: #000;
   flex: 1;
 }
-
+.button-wrapper:hover {
+  cursor: pointer;
+}
 .operator {
   background-color: #007bff;
   color: #ffffff;
   border-radius: 5px;
+}
+.operator:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }

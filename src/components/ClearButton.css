@@ -13,3 +13,6 @@
   margin: 6px;
   border-radius: 6px;
 }
+.clr-btn:hover {
+  cursor: pointer;
+}
